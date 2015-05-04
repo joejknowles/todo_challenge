@@ -4,6 +4,7 @@
   "description": "A simple todo list app made with angular.js",
   "main": "index.js",
   "dependencies": {
+    "bower": "^1.4.1",
     "ejs": "^2.3.1",
     "express": "^4.12.3",
     "karma": "^0.12.31",
