@@ -1,0 +1,26 @@
+<html ng-app='ToDo'>
+<head>
+  <title>To Do</title>
+</head>
+
+<body ng-controller="TasksController as tasksCtrl">
+  <h1>Tasks</h1>
+  <form>
+    <input ng-model='tasksCtrl.newTask'>
+    <button id="new-task__button" ng-click="tasksCtrl.addTask()">Enter</button>
+  </form>
+  <label>show: </label><button id='show-all' ng-click="tasksCtrl.showAll()">All Tasks</button>
+  <button id='show-active' ng-click="tasksCtrl.showActive()">Active Tasks</button>
+  <button id='show-completed' ng-click="tasksCtrl.showCompleted()">Completed Tasks</button>
+  <button style="display:block;" id='clear-completed' ng-click="tasksCtrl.clearCompleted()">Clear All Completed Tasks</button>
+  <ul>
+    <li ng-repeat="task in tasksCtrl.visibleTasks">
+      {{task.name}}
+      <input type="checkbox" ng-model="task.isCompleted">
+    </li>
+  </ul>
+
+  <script type="text/javascript" src="lib/angular.js"></script>
+  <script type="text/javascript" src="lib/angular-resource.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>

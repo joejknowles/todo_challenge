@@ -1,0 +1,33 @@
+{
+  "name": "todo_challenge",
+  "version": "1.0.0",
+  "description": "A simple todo list app made with angular.js",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.3",
+    "karma": "^0.12.31",
+    "protractor": "^2.0.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "protractor": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joejknowles/todo_challenge.git"
+  },
+  "author": "joejknowles@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joejknowles/todo_challenge/issues"
+  },
+  "homepage": "https://github.com/joejknowles/todo_challenge"
+}
