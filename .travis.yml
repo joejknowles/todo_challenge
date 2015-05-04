@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.10"
+
+before_install:
+  - npm install
+  - bower install
+
+addons:
+  sauce_connect:
+    username: "joejknowles"
+    access_key: "e56a01c3-1d15-476f-b655-957a0a73d204"
