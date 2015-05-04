@@ -13,4 +13,6 @@ addons:
     access_key: "e56a01c3-1d15-476f-b655-957a0a73d204"
 
 script:
+  - node app/server.js
+  - webdriver-manager start
   - protractor test/e2e/conf.js

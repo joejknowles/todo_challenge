@@ -6,7 +6,7 @@ To run the tests:
 * Clone this repo then navigate to the directory
 * In the command line run `bower install`
 * Run `npm install`
-* start the node server with node app/server.js
+* start the node server with `node app/server.js`
 * Start the webdriver-manager with `webdriver-manager start`
 * Run the protractor tests with `protractor test/e2e/conf.js`
 
