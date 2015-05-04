@@ -1,12 +1,27 @@
 # Todo Challenge
 
+Instructions for use
+--------------------
+To run the tests:
+* Clone this repo then navigate to the directory
+* In the command line run `bower install`
+* Run `npm install`
+* start the node server with node app/server.js
+* Start the webdriver-manager with `webdriver-manager start`
+* Run the protractor tests with `protractor test/e2e/conf.js`
+
+
+
+challenge instructions:
+---------------------------
+
 * Deadline: submit completed pull request by 9am on Monday
 * You may use whatever level of JavaScript you feel comfortable with - pure JS, jQuery, Angular, or whatever weird and wonderful framework you want to try. Extra points for DogeScript
 
 Steps
 -------
 
-1. Fill out your learning plan self review for the week: https://github.com/makersacademy/learning_plan 
+1. Fill out your learning plan self review for the week: https://github.com/makersacademy/learning_plan
 2. Fork this repo, and clone to your local machine
 3. Complete the following challenge:
 
