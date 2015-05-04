@@ -1,4 +1,7 @@
 # Todo Challenge
+Approach
+--------
+Simple to-do list app created with angular.js and a minimal express.js backend. Testing was done with protractor and Karma.
 
 Instructions for use
 --------------------
